@@ -3,7 +3,7 @@ import numpy.polynomial.legendre as leg
 from scipy.integrate import quad
 
 def f2(x):
-    return np.log(x) * x
+    return np.log(x) * x**2
 
 a2, b2 = 1, 1.5
 
